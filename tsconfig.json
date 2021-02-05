@@ -10,6 +10,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "ngr-card": [
+        "dist/ngr-card/ngr-card",
+        "dist/ngr-card"
+      ]
+    },
     "target": "es2015",
     "module": "es2020",
     "lib": [
